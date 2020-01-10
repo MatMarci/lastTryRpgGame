@@ -6,6 +6,11 @@ public class Container {
 
         System.out.println("Hello, First RPG Game !!!");
 
+        Character charToPlay = new Character();
+        CharacterService createdCharacter = new CharacterService(charToPlay.create());
+
+        createdCharacter.warmUp(charToPlay);
+
     }
 
 }
