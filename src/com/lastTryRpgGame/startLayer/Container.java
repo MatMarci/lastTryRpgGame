@@ -11,6 +11,11 @@ public class Container {
 
         createdCharacter.warmUp(charToPlay);
 
+        CharacterService createdCreature = new CharacterService(charToPlay.createCreature());
+
+        createdCreature.warmUp(charToPlay);
+
+
     }
 
 }

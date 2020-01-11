@@ -34,4 +34,8 @@ public class Character {
         return new Warrior();
     }
 
+    public ICharacter createCreature(){
+        return new GeneralCreature();
+    }
+
 }
